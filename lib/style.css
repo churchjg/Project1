@@ -500,8 +500,8 @@ input {
   border-bottom: 1px solid #a0d334;
   padding-bottom: 4px;
 }
-
-@media screen and (max-width: 500px) {
+/*  
+@media screen and (max-width: 300px) {
   * {
     margin: 0;
     padding: 0;
@@ -593,7 +593,10 @@ input {
     align-items: center;
   }
   .skill_circles {
-    margin: 0 auto;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .myskills {
     color: #4a4a4a;
@@ -604,22 +607,113 @@ input {
     font-size: 14px;
     font-weight: lighter;
     width: 10vh;
+    padding: 5px;
   }
+  .myskills_xd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: lighter;
+  }
+
+.myportfolio {
+  width: 10vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 1000px;
+  margin: 20px 50px;
+}
+.portfolio_fourth {
+  width: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 100px;
+  margin: 20px 50px;
+}
+
+.hover_images {
+  width: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 100px;
+  margin: 20px 50px;
+}
+.hoverimages_5 {
+  padding-left: 100px;
+}
+.fifth {
+  text-align: left;
+  height: 100px;
+  margin-top: 1050px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.clients {
+  text-align: left;
+  display: flex;
+  align-items: left;
+  flex-direction: row;
+  padding-right: 400px;
+  margin-bottom: 50px;
+  width: 100vh;
+}
+.clientsbox {
+  width: 65vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 30px;
+  margin-top: 400px;
+}
+.clientspeak {
+  display: flex;
+  padding-top: 10px;
+}
+.client1 {
+  padding-top: none;
+}
+.sixth {
+  margin-top: 1300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hire {
+  margin-right: 200px;
+  margin-top: 10px;
+}
+
   .bottom {
-    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: column;
-    width: 100%;
-    height: 100px;
-    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    align-items: left;
+    margin-top: 20px;
+    padding-left: 50px;
+  }
+  .bottom_4 {
+    padding-left: 50px;
   }
   .contact_info {
-    width: 100%;
+    width: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
     height: 100px;
     align-items: center;
   }
