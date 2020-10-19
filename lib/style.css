@@ -535,16 +535,16 @@ input {
   
   .services_1 {
     position: relative;
-    left: -10%;
+    left: -3%;
   }
   
   .button_3 {
-    width: 20%;
+    width: 15%;
   }
 
   .grid {
     position: relative;
-    left: -10%;
+    left: 0%;
   }
 
   .skills_1 {
@@ -557,17 +557,17 @@ input {
   }
   .second {
     position: relative;
-    left: -14%;
+    left: -10%;
   }
 
   .playbutton {
     position: relative;
-    left: -10%;
+    left: 0%;
   }
 
   .third {
     position: relative;
-    left: -19%;
+    left: -10%;
   }
 
   .myskills_xd {
@@ -579,7 +579,7 @@ input {
     position: relative;
     margin-top: -150px;
     padding: 0 0px;
-    left: -18%;
+    left: -7%;
     top: -15%;
     padding-top: -150%;
   }
@@ -626,14 +626,14 @@ input {
 
   .fifth {
     position: relative;
-    left: -15%;
-   margin-top: 5px;
+    left: -10%;
+    margin-top: 5px;
   }
 
   .clientsbox {
     position: relative;
     top: 10%;
-    left: 15%;
+    left: 20%;
     min-width: fit-content;
     display: flex;
     flex-direction: row;
@@ -650,17 +650,20 @@ input {
   .clientimage_3 {
     display: none;
   }
-  
+  .client13 {
+    display: none;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
     position: relative;
-    left: -40%;
+    left: 0%;
   }
 
   .sixth {
     position: relative;
-    left: -20%;
+    left: -10%;
     align-items: center;
   }
 
@@ -679,7 +682,7 @@ input {
     display: flex;
     flex-direction: row;
     position: relative;
-    left: 21%;
+    left: -10%;
     margin: 0 auto;
     font-size: 12px;
   }
@@ -698,8 +701,9 @@ input {
   font-size: 12px;
   margin-left: 20px;
 }
-
-@media screen and (max-width: 375px) {
+}
+/*
+@media screen and (min-width: 375px) {
   * {
     margin: 0;
     padding: 0;
@@ -894,12 +898,7 @@ input {
   margin-left: 20px;
 }
 
-@media screen {
-  
-}
-
 
 }
 
 
-}
